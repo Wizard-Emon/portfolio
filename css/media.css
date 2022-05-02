@@ -97,10 +97,10 @@
         padding-top: 2.5rem;
     }
     .main-title h3 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .main-title h3 .bg-text {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
@@ -134,16 +134,23 @@
     .header_content {
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+        padding-top: 3rem;
     }
     .left_header .h-shape {
         display: none;
     }
     .right_header {
         grid-row: 1;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
     .right_header .name {
+        font-size: 2rem;
+    }
+    .main-title h3 {
+        font-size: 3rem;
+    }
+    .main-title h3 .bg-text {
         font-size: 2rem;
     }
 }

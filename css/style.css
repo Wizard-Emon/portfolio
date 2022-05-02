@@ -226,7 +226,7 @@
     }
     
     .image:hover {
-        filter: grayscale(0);
+        filter: grayscale(0%);
     }
     
     .image img {
@@ -234,7 +234,6 @@
         height: 100%;
         object-fit: cover;
         transition: all .4s ease-in-out;
-        filter: grayscale(100%);
     }
     
     .right_header {
